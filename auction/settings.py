@@ -24,12 +24,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY')
+SECRET_KEY = "sdfkjsdhfsdkjfhsdg"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [os.environ.get('AWS_C9_HOSTNAME'), os.environ.get('HEROKU_HOSTNAME')]
+ALLOWED_HOSTS = ["localhost", os.environ.get('AWS_C9_HOSTNAME'), os.environ.get('HEROKU_HOSTNAME')]
 
 
 # Application definition
